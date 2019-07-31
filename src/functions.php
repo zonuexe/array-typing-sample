@@ -29,7 +29,7 @@ namespace zonuexe\ArrTyping\Book
     function search2(string $word, Book\SearchOptions $options): array
     {
         $begin = null;
-        if (isset($options->begin)) {
+        if ($options->begin !== null) {
             $begin = $options->begin->getTimestamp();
             assert($begin !== false);
         }
