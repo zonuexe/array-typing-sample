@@ -1,0 +1,15 @@
+{
+    "name": "zonuexe/array-typing-sample",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "zonuexe\\ArrTyping\\": "src"
+        },
+        "files": ["src/functions.php"]
+    },
+    "require-dev": {
+        "phan/phan": "^2.2",
+        "phpstan/phpstan": "^0.11.12",
+        "vimeo/psalm": "^3.4"
+    }
+}
