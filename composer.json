@@ -2,6 +2,7 @@
     "name": "zonuexe/array-typing-sample",
     "license": "MIT",
     "autoload": {
+        "classmap": ["src/script/"],
         "psr-4": {
             "zonuexe\\ArrTyping\\": "src"
         },
